@@ -79,7 +79,7 @@ impl SSD1351_FBO {
                 err += y * 2 + 1;
             }
 
-            if (r_d > x || err > y) {
+            if r_d > x || err > y {
                 x += 1;
                 err += x * 2 + 1;
             }

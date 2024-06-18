@@ -7,7 +7,7 @@ use rp_pico::{
     pac::SPI0,
 };
 
-use alloc::{vec, vec::Vec};
+use alloc::{vec::Vec};
 
 use rp_pico::hal::spi;
 
