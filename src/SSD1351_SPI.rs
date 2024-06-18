@@ -64,6 +64,9 @@ impl SPIDisplayInterface {
     }
 
     pub fn reset_interface(&mut self, delay: &mut cortex_m::delay::Delay) {
+
+        // Delays according to datasheet, allowing reset ~100ms
+        
         let _ = &mut self.pins.rst.set_high().unwrap();
 
         delay.delay_ms(100);
