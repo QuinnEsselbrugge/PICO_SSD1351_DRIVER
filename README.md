@@ -1,9 +1,11 @@
 
 A simple driver created for the SSD1351 OLED 1.5 inch rgb screen for the Pi Pico W
 
-Important fixes to come:
-    - Spi bindings are currently hardcoded. when migrating rp2040_hal versions, DynPinID broke and have not found a nice fix yet.
-    - 
+Critical fixes to come:
+<ul>
+<li>Spi bindings are currently hardcoded. when migrating rp2040_hal versions, DynPinID broke and have not found a nice fix yet.</li>    
+</ul>
+    
 
 Basic usage example:
 
