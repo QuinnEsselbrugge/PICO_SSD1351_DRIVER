@@ -8,7 +8,7 @@ Important fixes to come:
 Basic usage example:
 
 
-```
+``` rust
 
     #[global_allocator]
     static HEAP: Heap = Heap::empty();
