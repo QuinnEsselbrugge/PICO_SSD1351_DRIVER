@@ -2,7 +2,13 @@
 name = "pico_ssd1351_driver"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license = "MIT OR Apache-2.0"
 
 [dependencies]
+cortex-m = { version = "0.7"}
+cortex-m-rt = "0.7"
+embedded-hal = { version = "1.0.0" }
+panic-probe = { version = "0.3", features = ["print-defmt"] }
+rp-pico = "0.9"
+fugit = "0.3.7"
+embedded-alloc = "0.5.1"

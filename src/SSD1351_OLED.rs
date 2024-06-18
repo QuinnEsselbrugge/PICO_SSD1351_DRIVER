@@ -1,10 +1,10 @@
 use alloc::{vec, vec::Vec};
 
 use crate::{
-    ssd1351_driver::SSD1351_OLED_graphics::{SSD1351_Color, SSD1351_FBO},
-    ssd1351_driver::SSD1351_command::SSD1351_command,
-    ssd1351_driver::SSD1351_command::SSD1351_command::*,
-    ssd1351_driver::SSD1351_SPI::SPIDisplayInterface,
+    SSD1351_OLED_graphics::{SSD1351_Color, SSD1351_FBO},
+    SSD1351_command::SSD1351_command,
+    SSD1351_command::SSD1351_command::*,
+    SSD1351_SPI::SPIDisplayInterface,
 };
 
 pub struct SSD1351_OLED {

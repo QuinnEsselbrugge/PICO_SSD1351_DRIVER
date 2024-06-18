@@ -2,11 +2,9 @@
 
 // color enum
 
-use micromath::F32Ext;
-
 use alloc::{vec::Vec};
 
-use crate::ssd1351_driver::SSD1351_font::FONT11X18;
+use crate::SSD1351_font::FONT11X18;
 
 #[derive(Clone)]
 pub struct Point {

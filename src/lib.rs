@@ -1,14 +1,7 @@
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
-}
+extern crate alloc;
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
-}
+pub mod SSD1351_OLED;
+pub mod SSD1351_OLED_graphics;
+pub mod SSD1351_command;
+pub mod SSD1351_font;
+pub mod SSD1351_SPI;
