@@ -1,6 +1,5 @@
 [package]
-name = "PICO_SSD1351_DRIVER"
-description = "A driver created for the SSD1351 OLED 1.5 inch rgb screen for the Pi Pico W"
+name = "pico_ssd1351_driver"
 version = "0.1.0"
 edition = "2021"
 
